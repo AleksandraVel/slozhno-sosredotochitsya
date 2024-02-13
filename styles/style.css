@@ -2,6 +2,7 @@
   font-family: "IBM Plex Mono", monospace, Arial, Helvetica, sans-serif;
   padding: 10px;
   background-color: var(--background-color);
+  background-attachment: fixed;
 }
 
 a {
@@ -39,7 +40,7 @@ a {
 }
 
 /*rec*/
-.heder__decor { 
+.heder__decor {
   display: flex;
   align-items: center;
   justify-self: end;
