@@ -356,7 +356,7 @@
 
 @media (min-width: 1024px) {
   .page {
-    width: 100%;
+    width: 99.9%;
   }
   
   .header {
