@@ -174,7 +174,7 @@
 }
 
 .content__reference:focus-visible {
- outline: 1px solid var(--heder__text-referens);
+  outline: 1px solid var(--heder__text-referens);
 }
 
 .image {
@@ -358,18 +358,13 @@
   .header {
     min-height: 760px;
     margin-top: 4px;
-    padding-right: 5px;
-  }
-
-  .heder__decor::after {
-    margin-right: 10px;
   }
 
   .header__theme-menu {
     align-self: self-start;
     justify-self: center;
-    margin-left: 25px;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-top: 7px;
   }
 
   .header__theme-menu-list {
@@ -383,7 +378,6 @@
 
   .main {
     line-height: 23px;
-  
   }
 
   .content {
@@ -396,6 +390,7 @@
     margin-top: 1px;
     margin-bottom: 34px;
   }
+  
   .content__block {
     width: 96%;
   }
