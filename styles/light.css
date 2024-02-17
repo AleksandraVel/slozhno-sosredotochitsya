@@ -3,8 +3,9 @@
   --background-image: url(../images/cover-image-light.png);
   --decor-color: #353430;
   --heder__decor-color: transparent;
-  --color-button-hover: rgba(53, 52, 48, 0.4);
+  --color-button-hover: rgba(50, 49, 45, 0.4);
   --color-button: #353430;
+  --color-button_active: rgba(53, 52, 48);
   --color-title: #ffc2e6;
   --color-title-shadow: #ff8dcb;
   --heder__text-color: var(--decor-color);
@@ -12,7 +13,7 @@
   --title-color: var(--decor-color);
   --name-color: var(--decor-color);
   --text-color: var(--decor-color);
-  --heder__text-referens: var(--decor-color);
+  --heder__text-referens:rgba(53, 52, 48);
   --text-shadow-color: var(--color-title-shadow);
 }
 
@@ -22,8 +23,9 @@
     --background-image: url(../images/cover-image-light.png);
     --decor-color: #353430;
     --heder__decor-color: transparent;
-    --color-button-hover: rgba(53, 52, 48, 0.4);
+    --color-button-hover: rgba(50, 49, 45, 0.4);
     --color-button: #353430;
+    --color-button_active: rgba(53, 52, 48);
     --color-title: #ffc2e6;
     --color-title-shadow: #ff8dcb;
     --heder__text-color: var(--decor-color);
@@ -31,7 +33,7 @@
     --title-color: var(--decor-color);
     --name-color: var(--decor-color);
     --text-color: var(--decor-color);
-    --heder__text-referens: var(--decor-color);
+    --heder__text-referens:rgba(53, 52, 48);
     --text-shadow-color: var(--color-title-shadow);
   }
 }
