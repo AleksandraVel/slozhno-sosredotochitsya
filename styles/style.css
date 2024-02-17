@@ -115,6 +115,7 @@ a {
   background-color: var(--background-text-color);
   line-height: 23.3px;
   font-size: 18px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -230,7 +231,7 @@ a {
 
   .header {
     min-height: 1014px;
-    margin: 5px 10px 65px 0px;
+    margin: 5px 10px 55px 0px;
   }
 
   .header::before {
@@ -255,7 +256,7 @@ a {
   .header__text {
     width: 49%;
     justify-self: end;
-    line-height: 24px;
+    margin-bottom: 26px;
   }
 
   .main {
@@ -378,10 +379,6 @@ a {
     align-self: end;
   }
 
-  .header__text {
-    margin-bottom: 12px;
-  }
-
   .main {
     line-height: 23px;
   }
@@ -446,6 +443,10 @@ a {
     height: 98%;
   }
 
+  .footer {
+    min-height: 768px;
+  }
+}
   .footer {
     min-height: 768px;
   }
