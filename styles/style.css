@@ -18,6 +18,7 @@ a {
   align-items: center;
   justify-self: center;
   min-height: 668px;
+  height: 100vh;
 }
 
 .header::before {
