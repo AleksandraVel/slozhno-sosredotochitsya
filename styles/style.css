@@ -1,6 +1,5 @@
 .page {
   font-family: "IBM Plex Mono", Arial, Helvetica, monospace;
-  padding: 0px 10px;
   background-color: var(--background-color);
   background-attachment: fixed;
   background-image: var(--background-image);
