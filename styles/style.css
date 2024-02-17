@@ -355,6 +355,10 @@
 }
 
 @media (min-width: 1024px) {
+  .page {
+    width: 100%;
+  }
+  
   .header {
     min-height: 760px;
     margin-top: 4px;
