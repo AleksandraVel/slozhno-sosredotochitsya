@@ -3,15 +3,17 @@
   --background-image: url(../images/cover-image-light.png);
   --decor-color: #353430;
   --heder__decor-color: transparent;
-  --color-title: #FFC2E6;
-  --color-title-shadow:#FF8DCB;
-  --color-button:#353430;
-  --heder__text-color:var(--decor-color);
-  --background-text-color: #FF8DCB;
-  --title-color:var(--decor-color);
-  --name-color:var(--decor-color);
-  --text-color:var(--decor-color);
-  --text-shadow-color:var(--color-title-shadow);
+  --color-button-hover: rgba(53, 52, 48, 0.4);
+  --color-button: #353430;
+  --color-title: #ffc2e6;
+  --color-title-shadow: #ff8dcb;
+  --heder__text-color: var(--decor-color);
+  --background-text-color: #ff8dcb;
+  --title-color: var(--decor-color);
+  --name-color: var(--decor-color);
+  --text-color: var(--decor-color);
+  --heder__text-referens: var(--decor-color);
+  --text-shadow-color: var(--color-title-shadow);
 }
 
 @media (prefers-color-scheme: light) {
@@ -20,14 +22,16 @@
     --background-image: url(../images/cover-image-light.png);
     --decor-color: #353430;
     --heder__decor-color: transparent;
-    --color-title: #FFC2E6;
-    --color-title-shadow:#FF8DCB;
-    --color-button:#353430;
-    --heder__text-color:var(--decor-color);
-    --background-text-color: #FF8DCB;
-    --title-color:var(--decor-color);
-    --name-color:var(--decor-color);
-    --text-color:var(--decor-color);
-    --text-shadow-color:var(--color-title-shadow);
+    --color-button-hover: rgba(53, 52, 48, 0.4);
+    --color-button: #353430;
+    --color-title: #ffc2e6;
+    --color-title-shadow: #ff8dcb;
+    --heder__text-color: var(--decor-color);
+    --background-text-color: #ff8dcb;
+    --title-color: var(--decor-color);
+    --name-color: var(--decor-color);
+    --text-color: var(--decor-color);
+    --heder__text-referens: var(--decor-color);
+    --text-shadow-color: var(--color-title-shadow);
   }
 }

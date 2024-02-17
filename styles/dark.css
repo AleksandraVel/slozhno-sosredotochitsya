@@ -1,31 +1,37 @@
 .page.theme_dark {
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --decor-color: #FF0070;
-  --heder__decor-color:var(--decor-color);
-  --color-button:var(--decor-color);
-  --color-title: #DB00FF;
-  --color-title-shadow:var(--decor-color);
-  --title-color:var(--decor-color);
+  --decor-color: #ff0070;
+  --heder__decor-color: var(--decor-color);
+  --color-button-hover: rgba(255, 0, 112, 0.4);
+  --color-button: var(--decor-color);
+  --color-title: #db00ff;
+  --color-title-shadow: var(--decor-color);
   --heder__text-color: #000000;
-  --name-color:var(--background-color);
   --background-text-color: var(--decor-color);
-  --text-shadow-color:var(--decor-color);
+  --title-color: var(--decor-color);
+  --name-color: var(--background-color);
+  --text-color: #f1b2ce;
+  --heder__text-referens: var(--decor-color);
+  --text-shadow-color: var(--decor-color);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #000028;
     --background-image: url(../images/cover-image-dark.png);
-    --decor-color: #FF0070;
-    --heder__decor-color:var(--decor-color);
-    --color-button:var(--decor-color);
-    --color-title: #DB00FF;
-    --color-title-shadow:var(--decor-color);
-    --title-color:var(--decor-color);
+    --decor-color: #ff0070;
+    --heder__decor-color: var(--decor-color);
+    --color-button-hover: rgba(255, 0, 112, 0.4);
+    --color-button: var(--decor-color);
+    --color-title: #db00ff;
+    --color-title-shadow: var(--decor-color);
     --heder__text-color: #000000;
-    --name-color:var(--background-color);
     --background-text-color: var(--decor-color);
-    --text-shadow-color:var(--decor-color);
+    --title-color: var(--decor-color);
+    --name-color: var(--background-color);
+    --text-color: #f1b2ce;
+    --heder__text-referens: var(--decor-color);
+    --text-shadow-color: var(--decor-color);
   }
 }
