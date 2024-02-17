@@ -390,13 +390,21 @@
     margin-top: 1px;
     margin-bottom: 34px;
   }
-  
+
   .content__block {
     width: 96%;
   }
 
   .content__text {
     width: 101%;
+  }
+
+  .content-2 {
+    margin: 0px 0px 30px 10px;
+  }
+
+  .content__column {
+    min-width: 315px;
   }
 
   .content__title-2 {
@@ -421,13 +429,13 @@
   .content__text-3 {
     padding: 0;
   }
+
   .content__name-indentation {
     margin-bottom: 20px;
   }
 
   .content__image {
-    padding-right: 20px;
-    margin-bottom: 22px;
+    margin: 0px 0px 22px 5px;
   }
 
   .content__image-image {
@@ -436,11 +444,11 @@
   }
 
   .image {
-    height: 99%;
+    height: 98%;
   }
 
   .street {
-    height: 98%;
+    height: 96%;
   }
 
   .footer {
